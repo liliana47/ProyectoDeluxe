@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\kevin\source\repos\ProyectoDeluxe\GUI\App.xaml
-4875919788
+5-1492410408
 
 81723099
 15-943906325
-AgregarPWindow.xaml;MainWindow.xaml;Pages\Productos.xaml;Themes\LightTheme.xaml;
+AgregarPWindow.xaml;MainWindow.xaml;Pages\Productos.xaml;Styles\RadioButtonStyle.xaml;Themes\LightTheme.xaml;
 
-True
+False
 

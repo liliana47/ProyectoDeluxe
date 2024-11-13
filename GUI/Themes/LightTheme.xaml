@@ -7,9 +7,11 @@
     <SolidColorBrush x:Key="TertiaryColor" Color="#CACACA"/>
     <SolidColorBrush x:Key="WhiteColor" Color="White"/>
     <SolidColorBrush x:Key="BlueTransparent" Color="#B7C9D7"/>
+    <SolidColorBrush x:Key="YellowColor" Color="#dbe657"/>
+    <SolidColorBrush x:Key="BlackColor" Color="Black"/>
 
     <SolidColorBrush x:Key="PrimaryPurpleText" Color="Purple"/>
-    <SolidColorBrush x:Key="SecundaryBlueText" Color="#102341"/>
+    <SolidColorBrush x:Key="SecundaryPurpleText" Color="#59067d"/>
     <SolidColorBrush x:Key="TertiaryBlueText" Color="#191970"/>
 
     <SolidColorBrush x:Key="PrimaryBackgroundColor" Color="#C0C9EA"/>

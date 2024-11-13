@@ -52,3 +52,4 @@ C:\Users\kevin\source\repos\ProyectoDeluxe\GUI\obj\Debug\GUI.csproj.CoreCompileI
 C:\Users\kevin\source\repos\ProyectoDeluxe\GUI\obj\Debug\GUI.csproj.CopyComplete
 C:\Users\kevin\source\repos\ProyectoDeluxe\GUI\obj\Debug\GUI.exe
 C:\Users\kevin\source\repos\ProyectoDeluxe\GUI\obj\Debug\GUI.pdb
+C:\Users\kevin\source\repos\ProyectoDeluxe\GUI\obj\Debug\Styles\RadioButtonStyle.baml

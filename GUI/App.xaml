@@ -8,7 +8,7 @@
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Themes/LightTheme.xaml"/>
 
-                <!--<ResourceDictionary Source="/Styles/RadioButtonStyle.xaml"/>-->
+                <ResourceDictionary Source="/Styles/RadioButtonStyle.xaml"/>
 
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>

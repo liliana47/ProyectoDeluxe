@@ -15,11 +15,11 @@
         </Grid.RowDefinitions>
 
         <Label Content="Lista de productos" FontSize="20" FontWeight="Bold" HorizontalAlignment="Left" Margin="0,20,0,0" Foreground="{DynamicResource PrimaryPurpleText}"/>
-        <Label Content="Nombre" FontSize="15" FontWeight="Bold" Margin="5 80 0 12" Foreground="{DynamicResource PrimaryPurpleText}"/>
-        <Label Content="Descripcion" FontSize="15" FontWeight="Bold" Margin="105 80 0 12" Foreground="{DynamicResource PrimaryPurpleText}"/>
-        <Label Content="Cantidad" FontSize="15" FontWeight="Bold" Margin="205 80 0 12" Foreground="{DynamicResource PrimaryPurpleText}"/>
-        <Label Content="PrecioUnitario" FontSize="15" FontWeight="Bold" Margin="305 80 0 12" Foreground="{DynamicResource PrimaryPurpleText}"/>
-        <Label Content="Impuesto" FontSize="15" FontWeight="Bold" Margin="445 80 0 12" Foreground="{DynamicResource PrimaryPurpleText}"/>
+        <Label Content="Nombre" FontSize="15" FontWeight="Bold" Margin="5 80 0 12" Foreground="{DynamicResource BlackColor}"/>
+        <Label Content="Descripcion" FontSize="15" FontWeight="Bold" Margin="105 80 0 12" Foreground="{DynamicResource BlackColor}"/>
+        <Label Content="Cantidad" FontSize="15" FontWeight="Bold" Margin="205 80 0 12" Foreground="{DynamicResource BlackColor}"/>
+        <Label Content="Precio Unitario" FontSize="15" FontWeight="Bold" Margin="305 80 0 12" Foreground="{DynamicResource BlackColor}"/>
+        <Label Content="Impuesto" FontSize="15" FontWeight="Bold" Margin="445 80 0 12" Foreground="{DynamicResource BlackColor}"/>
 
         <Button x:Name="btnRegistrar" Content="Agregar Producto" 
                 FontSize="18"
@@ -37,7 +37,7 @@
                     <Setter Property="Foreground" Value="{DynamicResource PrimaryColor}"/>
                     <Style.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Background" Value="{DynamicResource TertiaryBlueText}"/>
+                            <Setter Property="Background" Value="{DynamicResource SecundaryPurpleText}"/>
                             <Setter Property="Foreground" Value="{DynamicResource WhiteColor}"/>
                         </Trigger>
                     </Style.Triggers>

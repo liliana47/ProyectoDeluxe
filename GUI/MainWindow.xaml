@@ -24,8 +24,8 @@
 
                     <StackPanel Grid.Row="0" Orientation="Horizontal">
                         
-                        <Label Content="FactuNet" Foreground="White" FontWeight="Bold" FontSize="25" Height="40" VerticalAlignment="Top"/>
-                        <RadioButton x:Name="rdProductos" Content="Productos" Style="{DynamicResource MenuRadioButtonStyleProductos}" Cursor="Hand" Click="rdProductos_Click" Checked="rdProductos_Checked" Height="36"/>
+                        <Label Content="Deluxe Bar" Foreground="White" FontWeight="Bold" FontSize="25" Height="40" VerticalAlignment="Top" Margin="10,0,30,0"/>
+                        <RadioButton x:Name="rdProductos" Content="Productos" Style="{DynamicResource MenuRadioButtonStyleRProductos}" Cursor="Hand" Click="rdProductos_Click" Checked="rdProductos_Checked" Height="36"/>
                     </StackPanel>
 
                     <StackPanel Grid.Row="1" VerticalAlignment="Center"/>
