@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{363936AB-A1B1-439D-A7DE-D7BD7B576DF7}|DAL\\DAL.csproj|c:\\users\\elman\\source\\repos\\proyectovbj\\dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{363936AB-A1B1-439D-A7DE-D7BD7B576DF7}|DAL\\DAL.csproj|solutionrelative:dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0317BE51-9C2B-495D-9E75-C59787ABDDC5}|BLL\\BLL.csproj|c:\\users\\elman\\source\\repos\\proyectovbj\\bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0317BE51-9C2B-495D-9E75-C59787ABDDC5}|BLL\\BLL.csproj|solutionrelative:bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|c:\\users\\elman\\source\\repos\\proyectovbj\\entity\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -59,6 +67,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\DAL\\Class1.cs",
+              "RelativeDocumentMoniker": "DAL\\Class1.cs",
+              "ToolTip": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\DAL\\Class1.cs",
+              "RelativeToolTip": "DAL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T04:41:14.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\BLL\\Class1.cs",
+              "RelativeDocumentMoniker": "BLL\\Class1.cs",
+              "ToolTip": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\BLL\\Class1.cs",
+              "RelativeToolTip": "BLL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T04:41:00.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Factura.cs",
               "DocumentMoniker": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\Factura.cs",
               "RelativeDocumentMoniker": "ENTITY\\Factura.cs",
@@ -71,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Cajero.cs",
               "DocumentMoniker": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\Cajero.cs",
               "RelativeDocumentMoniker": "ENTITY\\Cajero.cs",
@@ -83,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CertificadoDigital.cs",
               "DocumentMoniker": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\CertificadoDigital.cs",
               "RelativeDocumentMoniker": "ENTITY\\CertificadoDigital.cs",
@@ -95,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "FacturacionElectronica.cs",
               "DocumentMoniker": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\FacturacionElectronica.cs",
               "RelativeDocumentMoniker": "ENTITY\\FacturacionElectronica.cs",
@@ -107,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Impuesto.cs",
               "DocumentMoniker": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\Impuesto.cs",
               "RelativeDocumentMoniker": "ENTITY\\Impuesto.cs",
@@ -119,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\Producto.cs",
               "RelativeDocumentMoniker": "ENTITY\\Producto.cs",
@@ -131,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Persona.cs",
               "DocumentMoniker": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\Persona.cs",
               "RelativeDocumentMoniker": "ENTITY\\Persona.cs",
@@ -143,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\Cliente.cs",
               "RelativeDocumentMoniker": "ENTITY\\Cliente.cs",
@@ -155,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Empresa.cs",
               "DocumentMoniker": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\Empresa.cs",
               "RelativeDocumentMoniker": "ENTITY\\Empresa.cs",
@@ -167,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\GUI\\MainWindow.xaml",
               "RelativeDocumentMoniker": "GUI\\MainWindow.xaml",
@@ -178,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\GUI\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "GUI\\MainWindow.xaml.cs",
