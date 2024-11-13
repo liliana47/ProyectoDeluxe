@@ -8,7 +8,7 @@ namespace ENTITY
 {
     public class Cliente : Persona
     {
-        public Cliente(string nombre, string apellido, string tipoDocumento, string numeroDocumento, string telefono, string correoElectronico)
+        public Cliente(string nombre, string apellido, string tipoDocumento, int numeroDocumento, int telefono, string correoElectronico)
             : base(nombre, apellido, tipoDocumento, numeroDocumento, telefono, correoElectronico)
         {
         }
