@@ -15,9 +15,10 @@ namespace ENTITY
         public double PrecioUnitario { get; set; }
         public double Impuesto { get; set; }
 
-        public Producto(int idProducto, string nombreProducto, string descripcion, int cantidad, double precioUnitario)
+        public Producto() { }
+
+        public Producto(string nombreProducto, string descripcion, int cantidad, double precioUnitario)
         {
-            Id_Producto = idProducto;
             Nombre_Producto = nombreProducto;
             Descripcion = descripcion;
             Cantidad = cantidad;

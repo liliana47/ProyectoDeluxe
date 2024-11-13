@@ -5,8 +5,102 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GUI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="MainWindow" Height="760" Width="1400"
+        WindowState="Maximized"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        WindowStyle="None"
+        Background="{DynamicResource PrimaryColor}">
+    <Border>
+        <Grid>
+            <Border CornerRadius="8"
+            Padding="5"
+            Height="60"
+                    Margin="10,10,10,0"
+                    VerticalAlignment="Top"
+            Background="Purple">
+                <Grid x:Name="gridMenu">
+
+
+                    <StackPanel Grid.Row="0" Orientation="Horizontal">
+                        
+                        <Label Content="Deluxe Bar" Foreground="White" FontWeight="Bold" FontSize="25" Height="40" VerticalAlignment="Top" Margin="10,0,30,0"/>
+                        <RadioButton x:Name="rdProductos" Content="Productos" Style="{DynamicResource MenuRadioButtonStyleRProductos}" Cursor="Hand" Click="rdProductos_Click" Checked="rdProductos_Checked" Height="36"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Row="1" VerticalAlignment="Center"/>
+                </Grid>
+            </Border>
+
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="35"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <StackPanel Grid.Row="0" Grid.Column="4" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,5,10,0" Height="30" Orientation="Horizontal" FlowDirection="RightToLeft"/>
+
+                <Border Grid.Row="1" CornerRadius="0 0 5 0" Background="Transparent" Margin="10,53,10,10">
+                    <Frame x:Name="frameContent" NavigationUIVisibility="Hidden" Margin="20" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Border>
+                <Button x:Name="btnMinimize" Content="-" Click="btnMinimize_Click" Cursor="Hand" FontSize="15" FontWeight="SemiBold" Margin="1278,10,2,720" Grid.RowSpan="2">
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Background" Value="{DynamicResource PrimaryColor}"/>
+                            <Setter Property="Foreground" Value="{DynamicResource PrimaryBlueText}"/>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="{DynamicResource PrimaryBackgroundColor}"/>
+                                    <Setter Property="Foreground" Value="{DynamicResource PrimaryColor}"/>
+                                    <Setter Property="FontWeight" Value="Bold"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+
+                    <Button.Template>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Border Width="20" Height="20"
+                                CornerRadius="5"
+                                Background="{TemplateBinding Background}">
+                                <ContentPresenter VerticalAlignment="Center"
+                                              HorizontalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+                <Button x:Name="btnClose" Content="X" Click="btnClose_Click" Cursor="Hand" FontWeight="SemiBold" Margin="1301,10,-21,720" Grid.RowSpan="2">
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Background" Value="{DynamicResource PrimaryColor}"/>
+                            <Setter Property="Foreground" Value="{DynamicResource PrimaryBlueText}"/>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="{DynamicResource PrimaryRedColor}"/>
+                                    <Setter Property="Foreground" Value="{DynamicResource PrimaryBlueText}"/>
+                                    <Setter Property="FontWeight" Value="Bold"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+
+                    <Button.Template>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Border Width="20" Height="20"
+                                CornerRadius="5"
+                                Background="{TemplateBinding Background}">
+                                <ContentPresenter VerticalAlignment="Center"
+                                              HorizontalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+
+                <Grid>
+                    <Frame x:Name="MainFrame" />
+                </Grid>
+
+            </Grid>
+        </Grid>
+    </Border>
 </Window>

@@ -1,0 +1,62 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style x:Key="MenuRadioButtonStyleRProductos" TargetType="{x:Type RadioButton}">
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="Foreground" Value="{DynamicResource PrimaryColor}"/>
+        <Setter Property="FontWeight" Value="Medium"/>
+        <Setter Property="FontSize" Value="15"/>
+        <Setter Property="Height" Value="48"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type RadioButton}">
+                    <Border x:Name="menuButton"
+                        Background="{TemplateBinding Background}"
+                        BorderThickness="{TemplateBinding BorderThickness}">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="45"/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+
+
+                            <Border x:Name="btnSelected"
+                            Grid.ColumnSpan="2"
+                            CornerRadius="10"
+                            Width="150" HorizontalAlignment="Center">
+                            </Border>
+
+                            <Rectangle Name="Indicator"
+                                   HorizontalAlignment="Left"
+                                   Width="6" Height="25"
+                                   VerticalAlignment="Center"
+                                   RadiusX="3" RadiusY="3">
+                            </Rectangle>
+
+
+
+                            <TextBlock x:Name="txtName" HorizontalAlignment="Left"
+                               VerticalAlignment="Center" Margin="0 0 0 0"
+                               Grid.Column="1" Text="{TemplateBinding Content}"
+                               Foreground="{TemplateBinding Foreground}"
+                               FontWeight="{TemplateBinding FontWeight}"
+                               FontSize="{TemplateBinding FontSize}"/>
+
+                        </Grid>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="txtName" Property="Foreground" Value="{DynamicResource PrimaryPurpleText}"/>
+                            <Setter TargetName="btnSelected" Property="Background" Value="{DynamicResource PrimaryColor}"/>
+                        </Trigger>
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter TargetName="Indicator" Property="Fill" Value="{DynamicResource YellowColor}"/>
+                            <Setter TargetName="btnSelected" Property="Background" Value="{DynamicResource PrimaryColor}"/>
+                            <Setter TargetName="txtName" Property="Foreground" Value="{DynamicResource PrimaryPurpleText}"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

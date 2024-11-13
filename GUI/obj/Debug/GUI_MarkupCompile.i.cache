@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\elman\source\repos\ProyectoVBJ\GUI\obj\Debug\
+C:\Users\kevin\source\repos\ProyectoDeluxe\GUI\obj\Debug\
 GUI
 none
 false
 DEBUG;TRACE
-C:\Users\elman\source\repos\ProyectoVBJ\GUI\App.xaml
-1219584333
+C:\Users\kevin\source\repos\ProyectoDeluxe\GUI\App.xaml
+5-1492410408
 
-6-502434485
-13-1310406943
-MainWindow.xaml;
+81723099
+15-943906325
+AgregarPWindow.xaml;MainWindow.xaml;Pages\Productos.xaml;Styles\RadioButtonStyle.xaml;Themes\LightTheme.xaml;
 
-True
+False
 
