@@ -1,0 +1,196 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|c:\\users\\elman\\source\\repos\\proyectovbj\\entity\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\entity\\cajero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\cajero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\entity\\certificadodigital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\certificadodigital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\entity\\facturacionelectronica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\facturacionelectronica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\entity\\impuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\impuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\entity\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\entity\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\entity\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\entity\\empresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\empresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2D54EC4-149E-4818-B0B6-E0B9EA58AB51}|GUI\\GUI.csproj|C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\gui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C2D54EC4-149E-4818-B0B6-E0B9EA58AB51}|GUI\\GUI.csproj|solutionrelative:gui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2D54EC4-149E-4818-B0B6-E0B9EA58AB51}|GUI\\GUI.csproj|C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\gui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2D54EC4-149E-4818-B0B6-E0B9EA58AB51}|GUI\\GUI.csproj|solutionrelative:gui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Factura.cs",
+              "DocumentMoniker": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\Factura.cs",
+              "RelativeDocumentMoniker": "ENTITY\\Factura.cs",
+              "ToolTip": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\Factura.cs",
+              "RelativeToolTip": "ENTITY\\Factura.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwCsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T04:01:15.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cajero.cs",
+              "DocumentMoniker": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\Cajero.cs",
+              "RelativeDocumentMoniker": "ENTITY\\Cajero.cs",
+              "ToolTip": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\Cajero.cs",
+              "RelativeToolTip": "ENTITY\\Cajero.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T03:59:16.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CertificadoDigital.cs",
+              "DocumentMoniker": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\CertificadoDigital.cs",
+              "RelativeDocumentMoniker": "ENTITY\\CertificadoDigital.cs",
+              "ToolTip": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\CertificadoDigital.cs",
+              "RelativeToolTip": "ENTITY\\CertificadoDigital.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T03:58:26.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FacturacionElectronica.cs",
+              "DocumentMoniker": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\FacturacionElectronica.cs",
+              "RelativeDocumentMoniker": "ENTITY\\FacturacionElectronica.cs",
+              "ToolTip": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\FacturacionElectronica.cs",
+              "RelativeToolTip": "ENTITY\\FacturacionElectronica.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T03:57:06.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Impuesto.cs",
+              "DocumentMoniker": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\Impuesto.cs",
+              "RelativeDocumentMoniker": "ENTITY\\Impuesto.cs",
+              "ToolTip": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\Impuesto.cs",
+              "RelativeToolTip": "ENTITY\\Impuesto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T03:55:22.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\Producto.cs",
+              "RelativeDocumentMoniker": "ENTITY\\Producto.cs",
+              "ToolTip": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\Producto.cs",
+              "RelativeToolTip": "ENTITY\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T03:52:57.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\Persona.cs",
+              "RelativeDocumentMoniker": "ENTITY\\Persona.cs",
+              "ToolTip": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\Persona.cs",
+              "RelativeToolTip": "ENTITY\\Persona.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T03:49:46.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\Cliente.cs",
+              "RelativeDocumentMoniker": "ENTITY\\Cliente.cs",
+              "ToolTip": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\Cliente.cs",
+              "RelativeToolTip": "ENTITY\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T03:47:02.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Empresa.cs",
+              "DocumentMoniker": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\Empresa.cs",
+              "RelativeDocumentMoniker": "ENTITY\\Empresa.cs",
+              "ToolTip": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\Empresa.cs",
+              "RelativeToolTip": "ENTITY\\Empresa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T03:44:19.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\GUI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "GUI\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\GUI\\MainWindow.xaml",
+              "RelativeToolTip": "GUI\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-13T03:43:27.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\GUI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\GUI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "GUI\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T03:43:27.243Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
