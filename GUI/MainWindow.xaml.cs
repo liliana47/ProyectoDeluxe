@@ -35,7 +35,7 @@ namespace GUI
 
         private void rdProductos_Click(object sender, RoutedEventArgs e)
         {
-            //frameContent.Navigate(new Productos());
+            frameContent.Navigate(new Productos());
         }
 
         private void rdProductos_Checked(object sender, RoutedEventArgs e)

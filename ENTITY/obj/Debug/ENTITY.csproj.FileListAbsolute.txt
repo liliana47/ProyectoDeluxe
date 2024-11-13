@@ -1,0 +1,6 @@
+C:\Users\kevin\source\repos\ProyectoDeluxe\ENTITY\bin\Debug\ENTITY.dll
+C:\Users\kevin\source\repos\ProyectoDeluxe\ENTITY\bin\Debug\ENTITY.pdb
+C:\Users\kevin\source\repos\ProyectoDeluxe\ENTITY\obj\Debug\ENTITY.csproj.AssemblyReference.cache
+C:\Users\kevin\source\repos\ProyectoDeluxe\ENTITY\obj\Debug\ENTITY.csproj.CoreCompileInputs.cache
+C:\Users\kevin\source\repos\ProyectoDeluxe\ENTITY\obj\Debug\ENTITY.dll
+C:\Users\kevin\source\repos\ProyectoDeluxe\ENTITY\obj\Debug\ENTITY.pdb

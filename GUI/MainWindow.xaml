@@ -9,7 +9,8 @@
         WindowState="Maximized"
         WindowStartupLocation="CenterScreen"
         ResizeMode="NoResize"
-        WindowStyle="None">
+        WindowStyle="None"
+        Background="{DynamicResource PrimaryColor}">
     <Border>
         <Grid>
             <Border CornerRadius="8"
@@ -17,19 +18,14 @@
             Height="60"
                     Margin="10,10,10,0"
                     VerticalAlignment="Top"
-            Background="#2DC7C9">
+            Background="Purple">
                 <Grid x:Name="gridMenu">
 
 
                     <StackPanel Grid.Row="0" Orientation="Horizontal">
-                        <!--<Image Source="/Images/logo.png" Stretch="Fill" Height="36" Width="36" VerticalAlignment="Center" Margin="10 0 0 0"/>-->
-                        <!--<Image Source="/Images/logo.png" Stretch="Fill" Height="36" Width="36" VerticalAlignment="Center" Margin="10 0 0 0"/>-->
-                        <!--<Image Source="/Images/logo.png" Stretch="Fill" Height="36" Width="36" VerticalAlignment="Center" Margin="10 0 0 0"/>-->
-                        <!--<Image Source="/Images/logo.png" Stretch="Fill" Height="36" Width="36" VerticalAlignment="Center" Margin="10 0 0 0"/>-->
-                        <Label Content="FactuNet" Foreground="{DynamicResource PrimaryBlueText}" FontWeight="Bold" FontSize="25" Height="40" VerticalAlignment="Top"/>
-                        <RadioButton x:Name="rdProductos" Content="Estudiantes" Style="{DynamicResource MenuRadioButtonStyleProductos}" Cursor="Hand" Click="rdProductos_Click" Checked="rdProductos_Checked" Height="36"/>
-                        <RadioButton x:Name="rdBeneficiarios" Content="Beneficiarios" Style="{DynamicResource MenuRadioButtonStyleIngresos}" Cursor="Hand" Click="rdBeneficiarios_Click" Checked="rdBeneficiaros_Checked" Height="36"/>
-                        <RadioButton x:Name="rdIngresos" Content="Clientes" Style="{DynamicResource MenuRadioButtonStyleIngresos}" Cursor="Hand" Click="rdIngresos_Click" Checked="rdIngresos_Checked" Width="181" Height="36"/>
+                        
+                        <Label Content="FactuNet" Foreground="White" FontWeight="Bold" FontSize="25" Height="40" VerticalAlignment="Top"/>
+                        <RadioButton x:Name="rdProductos" Content="Productos" Style="{DynamicResource MenuRadioButtonStyleProductos}" Cursor="Hand" Click="rdProductos_Click" Checked="rdProductos_Checked" Height="36"/>
                     </StackPanel>
 
                     <StackPanel Grid.Row="1" VerticalAlignment="Center"/>
@@ -44,7 +40,7 @@
 
                 <StackPanel Grid.Row="0" Grid.Column="4" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,5,10,0" Height="30" Orientation="Horizontal" FlowDirection="RightToLeft"/>
 
-                <Border Grid.Row="1" CornerRadius="0 0 5 0" Background="Transparent" BorderBrush="Aqua" BorderThickness="1" Margin="10,53,10,10">
+                <Border Grid.Row="1" CornerRadius="0 0 5 0" Background="Transparent" Margin="10,53,10,10">
                     <Frame x:Name="frameContent" NavigationUIVisibility="Hidden" Margin="20" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                 </Border>
                 <Button x:Name="btnMinimize" Content="-" Click="btnMinimize_Click" Cursor="Hand" FontSize="15" FontWeight="SemiBold" Margin="1278,10,2,720" Grid.RowSpan="2">
