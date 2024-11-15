@@ -59,12 +59,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="AgregarVWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
     <Compile Include="AgregarPWindow.xaml.cs">
       <DependentUpon>AgregarPWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarVWindow.xaml.cs">
+      <DependentUpon>AgregarVWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
@@ -74,6 +81,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Pages\Facturar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Productos.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -88,6 +99,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pages\Facturar.xaml.cs">
+      <DependentUpon>Facturar.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Productos.xaml.cs">
       <DependentUpon>Productos.xaml</DependentUpon>
     </Compile>

@@ -26,6 +26,8 @@
                         
                         <Label Content="Deluxe Bar" Foreground="White" FontWeight="Bold" FontSize="25" Height="40" VerticalAlignment="Top" Margin="10,0,30,0"/>
                         <RadioButton x:Name="rdProductos" Content="Productos" Style="{DynamicResource MenuRadioButtonStyleRProductos}" Cursor="Hand" Click="rdProductos_Click" Checked="rdProductos_Checked" Height="36"/>
+                        <RadioButton x:Name="rdVentas" Content="Ventas" Style="{DynamicResource MenuRadioButtonStyleRVentas}" Cursor="Hand" Click="rdVentas_Click" Checked="rdVentas_Checked" Height="36"/>
+                        
                     </StackPanel>
 
                     <StackPanel Grid.Row="1" VerticalAlignment="Center"/>

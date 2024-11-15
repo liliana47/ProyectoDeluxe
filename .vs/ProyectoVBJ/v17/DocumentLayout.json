@@ -1,58 +1,97 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\",
+  "WorkspaceRootPath": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{363936AB-A1B1-439D-A7DE-D7BD7B576DF7}|DAL\\DAL.csproj|c:\\users\\elman\\source\\repos\\proyectovbj\\dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{363936AB-A1B1-439D-A7DE-D7BD7B576DF7}|DAL\\DAL.csproj|solutionrelative:dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2D54EC4-149E-4818-B0B6-E0B9EA58AB51}|GUI\\GUI.csproj|c:\\users\\valeri\\onedrive\\desktop\\deluxebar\\proyectodeluxe\\gui\\agregarvwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C2D54EC4-149E-4818-B0B6-E0B9EA58AB51}|GUI\\GUI.csproj|solutionrelative:gui\\agregarvwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0317BE51-9C2B-495D-9E75-C59787ABDDC5}|BLL\\BLL.csproj|c:\\users\\elman\\source\\repos\\proyectovbj\\bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0317BE51-9C2B-495D-9E75-C59787ABDDC5}|BLL\\BLL.csproj|solutionrelative:bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2D54EC4-149E-4818-B0B6-E0B9EA58AB51}|GUI\\GUI.csproj|C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\gui\\pages\\facturar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2D54EC4-149E-4818-B0B6-E0B9EA58AB51}|GUI\\GUI.csproj|solutionrelative:gui\\pages\\facturar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|c:\\users\\elman\\source\\repos\\proyectovbj\\entity\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2D54EC4-149E-4818-B0B6-E0B9EA58AB51}|GUI\\GUI.csproj|C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\gui\\pages\\productos.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2D54EC4-149E-4818-B0B6-E0B9EA58AB51}|GUI\\GUI.csproj|solutionrelative:gui\\pages\\productos.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\entity\\cajero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\cajero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2D54EC4-149E-4818-B0B6-E0B9EA58AB51}|GUI\\GUI.csproj|C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\gui\\pages\\facturar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C2D54EC4-149E-4818-B0B6-E0B9EA58AB51}|GUI\\GUI.csproj|solutionrelative:gui\\pages\\facturar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\entity\\certificadodigital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\certificadodigital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2D54EC4-149E-4818-B0B6-E0B9EA58AB51}|GUI\\GUI.csproj|C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\gui\\agregarpwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C2D54EC4-149E-4818-B0B6-E0B9EA58AB51}|GUI\\GUI.csproj|solutionrelative:gui\\agregarpwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\entity\\facturacionelectronica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\facturacionelectronica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2D54EC4-149E-4818-B0B6-E0B9EA58AB51}|GUI\\GUI.csproj|c:\\users\\valeri\\onedrive\\desktop\\deluxebar\\proyectodeluxe\\gui\\pages\\productos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C2D54EC4-149E-4818-B0B6-E0B9EA58AB51}|GUI\\GUI.csproj|solutionrelative:gui\\pages\\productos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\entity\\impuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\impuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{363936AB-A1B1-439D-A7DE-D7BD7B576DF7}|DAL\\DAL.csproj|C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\dal\\productodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{363936AB-A1B1-439D-A7DE-D7BD7B576DF7}|DAL\\DAL.csproj|solutionrelative:dal\\productodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\entity\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0317BE51-9C2B-495D-9E75-C59787ABDDC5}|BLL\\BLL.csproj|C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\bll\\productobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0317BE51-9C2B-495D-9E75-C59787ABDDC5}|BLL\\BLL.csproj|solutionrelative:bll\\productobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\entity\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\entity\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2D54EC4-149E-4818-B0B6-E0B9EA58AB51}|GUI\\GUI.csproj|C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\gui\\agregarpwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2D54EC4-149E-4818-B0B6-E0B9EA58AB51}|GUI\\GUI.csproj|solutionrelative:gui\\agregarpwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\entity\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{363936AB-A1B1-439D-A7DE-D7BD7B576DF7}|DAL\\DAL.csproj|C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\dal\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{363936AB-A1B1-439D-A7DE-D7BD7B576DF7}|DAL\\DAL.csproj|solutionrelative:dal\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\entity\\empresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\empresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2D54EC4-149E-4818-B0B6-E0B9EA58AB51}|GUI\\GUI.csproj|C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\gui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2D54EC4-149E-4818-B0B6-E0B9EA58AB51}|GUI\\GUI.csproj|solutionrelative:gui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2D54EC4-149E-4818-B0B6-E0B9EA58AB51}|GUI\\GUI.csproj|C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\gui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Valeri\\AppData\\Local\\Temp\\.vsdbgsrc\\0f0c1a8a1eb0be9029176d315783d705bed66805ee8f7402edb54eba563c2895\\NavigationService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2D54EC4-149E-4818-B0B6-E0B9EA58AB51}|GUI\\GUI.csproj|C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\gui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C2D54EC4-149E-4818-B0B6-E0B9EA58AB51}|GUI\\GUI.csproj|solutionrelative:gui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2D54EC4-149E-4818-B0B6-E0B9EA58AB51}|GUI\\GUI.csproj|C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\gui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2D54EC4-149E-4818-B0B6-E0B9EA58AB51}|GUI\\GUI.csproj|solutionrelative:gui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2D54EC4-149E-4818-B0B6-E0B9EA58AB51}|GUI\\GUI.csproj|C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\gui\\styles\\radiobuttonstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C2D54EC4-149E-4818-B0B6-E0B9EA58AB51}|GUI\\GUI.csproj|solutionrelative:gui\\styles\\radiobuttonstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\entity\\impuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\impuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\entity\\facturacionelectronica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\facturacionelectronica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\entity\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\entity\\empresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\empresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\entity\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\entity\\certificadodigital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\certificadodigital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\entity\\cajero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F8B7538-D434-4AEB-8DAA-3045210B602F}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\cajero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\entity\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:entity\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -67,160 +106,280 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\DAL\\Class1.cs",
-              "RelativeDocumentMoniker": "DAL\\Class1.cs",
-              "ToolTip": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\DAL\\Class1.cs",
-              "RelativeToolTip": "DAL\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T04:41:14.214Z",
+              "Title": "AgregarVWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\GUI\\AgregarVWindow.xaml",
+              "RelativeDocumentMoniker": "GUI\\AgregarVWindow.xaml",
+              "ToolTip": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\GUI\\AgregarVWindow.xaml",
+              "RelativeToolTip": "GUI\\AgregarVWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-15T20:10:41.079Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\BLL\\Class1.cs",
-              "RelativeDocumentMoniker": "BLL\\Class1.cs",
-              "ToolTip": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\BLL\\Class1.cs",
-              "RelativeToolTip": "BLL\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T04:41:00.38Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Factura.cs",
-              "DocumentMoniker": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\Factura.cs",
-              "RelativeDocumentMoniker": "ENTITY\\Factura.cs",
-              "ToolTip": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\Factura.cs",
-              "RelativeToolTip": "ENTITY\\Factura.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAwCsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T04:01:15.285Z",
+              "DocumentIndex": 4,
+              "Title": "AgregarPWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\GUI\\AgregarPWindow.xaml",
+              "RelativeDocumentMoniker": "GUI\\AgregarPWindow.xaml",
+              "ToolTip": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\GUI\\AgregarPWindow.xaml",
+              "RelativeToolTip": "GUI\\AgregarPWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-15T19:42:08.927Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Cajero.cs",
-              "DocumentMoniker": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\Cajero.cs",
-              "RelativeDocumentMoniker": "ENTITY\\Cajero.cs",
-              "ToolTip": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\Cajero.cs",
-              "RelativeToolTip": "ENTITY\\Cajero.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T03:59:16.234Z"
+              "Title": "Facturar.xaml",
+              "DocumentMoniker": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\GUI\\Pages\\Facturar.xaml",
+              "RelativeDocumentMoniker": "GUI\\Pages\\Facturar.xaml",
+              "ToolTip": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\GUI\\Pages\\Facturar.xaml",
+              "RelativeToolTip": "GUI\\Pages\\Facturar.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-15T18:43:06.334Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CertificadoDigital.cs",
-              "DocumentMoniker": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\CertificadoDigital.cs",
-              "RelativeDocumentMoniker": "ENTITY\\CertificadoDigital.cs",
-              "ToolTip": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\CertificadoDigital.cs",
-              "RelativeToolTip": "ENTITY\\CertificadoDigital.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Productos.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\GUI\\Pages\\Productos.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Pages\\Productos.xaml.cs",
+              "ToolTip": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\GUI\\Pages\\Productos.xaml.cs",
+              "RelativeToolTip": "GUI\\Pages\\Productos.xaml.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAgwCcAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T03:58:26.218Z"
+              "WhenOpened": "2024-11-15T18:41:51.66Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "FacturacionElectronica.cs",
-              "DocumentMoniker": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\FacturacionElectronica.cs",
-              "RelativeDocumentMoniker": "ENTITY\\FacturacionElectronica.cs",
-              "ToolTip": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\FacturacionElectronica.cs",
-              "RelativeToolTip": "ENTITY\\FacturacionElectronica.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T03:57:06.294Z"
+              "Title": "Productos.xaml",
+              "DocumentMoniker": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\GUI\\Pages\\Productos.xaml",
+              "RelativeDocumentMoniker": "GUI\\Pages\\Productos.xaml",
+              "ToolTip": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\GUI\\Pages\\Productos.xaml",
+              "RelativeToolTip": "GUI\\Pages\\Productos.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-15T18:41:06.452Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Impuesto.cs",
-              "DocumentMoniker": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\Impuesto.cs",
-              "RelativeDocumentMoniker": "ENTITY\\Impuesto.cs",
-              "ToolTip": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\Impuesto.cs",
-              "RelativeToolTip": "ENTITY\\Impuesto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Facturar.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\GUI\\Pages\\Facturar.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Pages\\Facturar.xaml.cs",
+              "ToolTip": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\GUI\\Pages\\Facturar.xaml.cs",
+              "RelativeToolTip": "GUI\\Pages\\Facturar.xaml.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAswCgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T03:55:22.515Z"
+              "WhenOpened": "2024-11-15T18:43:17.64Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "ProductoBLL.cs",
+              "DocumentMoniker": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\BLL\\ProductoBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\ProductoBLL.cs",
+              "ToolTip": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\BLL\\ProductoBLL.cs",
+              "RelativeToolTip": "BLL\\ProductoBLL.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAmwBwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T19:43:55.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductoDAL.cs",
+              "DocumentMoniker": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\DAL\\ProductoDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\ProductoDAL.cs",
+              "ToolTip": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\DAL\\ProductoDAL.cs",
+              "RelativeToolTip": "DAL\\ProductoDAL.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAYwDEAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T17:57:59.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\ENTITY\\Producto.cs",
               "RelativeDocumentMoniker": "ENTITY\\Producto.cs",
-              "ToolTip": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\Producto.cs",
+              "ToolTip": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\ENTITY\\Producto.cs",
               "RelativeToolTip": "ENTITY\\Producto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T03:52:57.805Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Persona.cs",
-              "DocumentMoniker": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\Persona.cs",
-              "RelativeDocumentMoniker": "ENTITY\\Persona.cs",
-              "ToolTip": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\Persona.cs",
-              "RelativeToolTip": "ENTITY\\Persona.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Title": "AgregarPWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\GUI\\AgregarPWindow.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\AgregarPWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\GUI\\AgregarPWindow.xaml.cs",
+              "RelativeToolTip": "GUI\\AgregarPWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T03:49:46.782Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\Cliente.cs",
-              "RelativeDocumentMoniker": "ENTITY\\Cliente.cs",
-              "ToolTip": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\Cliente.cs",
-              "RelativeToolTip": "ENTITY\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T03:47:02.333Z"
+              "WhenOpened": "2024-11-15T19:42:23.088Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Empresa.cs",
-              "DocumentMoniker": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\Empresa.cs",
-              "RelativeDocumentMoniker": "ENTITY\\Empresa.cs",
-              "ToolTip": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\ENTITY\\Empresa.cs",
-              "RelativeToolTip": "ENTITY\\Empresa.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Title": "DatabaseConnection.cs",
+              "DocumentMoniker": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\DAL\\DatabaseConnection.cs",
+              "RelativeDocumentMoniker": "DAL\\DatabaseConnection.cs",
+              "ToolTip": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\DAL\\DatabaseConnection.cs",
+              "RelativeToolTip": "DAL\\DatabaseConnection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T03:44:19.539Z"
+              "WhenOpened": "2024-11-15T19:11:55.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RadioButtonStyle.xaml",
+              "DocumentMoniker": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\GUI\\Styles\\RadioButtonStyle.xaml",
+              "RelativeDocumentMoniker": "GUI\\Styles\\RadioButtonStyle.xaml",
+              "ToolTip": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\GUI\\Styles\\RadioButtonStyle.xaml",
+              "RelativeToolTip": "GUI\\Styles\\RadioButtonStyle.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-15T18:22:17.517Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\GUI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\GUI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "GUI\\MainWindow.xaml.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAgwBsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T03:43:27.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NavigationService.cs",
+              "DocumentMoniker": "C:\\Users\\Valeri\\AppData\\Local\\Temp\\.vsdbgsrc\\0f0c1a8a1eb0be9029176d315783d705bed66805ee8f7402edb54eba563c2895\\NavigationService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\0f0c1a8a1eb0be9029176d315783d705bed66805ee8f7402edb54eba563c2895\\NavigationService.cs",
+              "ToolTip": "C:\\Users\\Valeri\\AppData\\Local\\Temp\\.vsdbgsrc\\0f0c1a8a1eb0be9029176d315783d705bed66805ee8f7402edb54eba563c2895\\NavigationService.cs [Solo lectura]",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\0f0c1a8a1eb0be9029176d315783d705bed66805ee8f7402edb54eba563c2895\\NavigationService.cs [Solo lectura]",
+              "ViewState": "AQIAAIcEAAAAAAAAAAAYwJcEAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T18:37:56.953Z",
+              "EditorCaption": " [Solo lectura]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Impuesto.cs",
+              "DocumentMoniker": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\ENTITY\\Impuesto.cs",
+              "RelativeDocumentMoniker": "ENTITY\\Impuesto.cs",
+              "ToolTip": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\ENTITY\\Impuesto.cs",
+              "RelativeToolTip": "ENTITY\\Impuesto.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T03:55:22.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\GUI\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\GUI\\MainWindow.xaml",
               "RelativeDocumentMoniker": "GUI\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\GUI\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\GUI\\MainWindow.xaml",
               "RelativeToolTip": "GUI\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-13T03:43:27.405Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\GUI\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "GUI\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\elman\\source\\repos\\ProyectoVBJ\\GUI\\MainWindow.xaml.cs",
-              "RelativeToolTip": "GUI\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 22,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\ENTITY\\Persona.cs",
+              "RelativeDocumentMoniker": "ENTITY\\Persona.cs",
+              "ToolTip": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\ENTITY\\Persona.cs",
+              "RelativeToolTip": "ENTITY\\Persona.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T03:43:27.243Z"
+              "WhenOpened": "2024-11-13T03:49:46.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Empresa.cs",
+              "DocumentMoniker": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\ENTITY\\Empresa.cs",
+              "RelativeDocumentMoniker": "ENTITY\\Empresa.cs",
+              "ToolTip": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\ENTITY\\Empresa.cs",
+              "RelativeToolTip": "ENTITY\\Empresa.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T03:44:19.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FacturacionElectronica.cs",
+              "DocumentMoniker": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\ENTITY\\FacturacionElectronica.cs",
+              "RelativeDocumentMoniker": "ENTITY\\FacturacionElectronica.cs",
+              "ToolTip": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\ENTITY\\FacturacionElectronica.cs",
+              "RelativeToolTip": "ENTITY\\FacturacionElectronica.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T03:57:06.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\ENTITY\\Cliente.cs",
+              "RelativeDocumentMoniker": "ENTITY\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\ENTITY\\Cliente.cs",
+              "RelativeToolTip": "ENTITY\\Cliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T03:47:02.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Cajero.cs",
+              "DocumentMoniker": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\ENTITY\\Cajero.cs",
+              "RelativeDocumentMoniker": "ENTITY\\Cajero.cs",
+              "ToolTip": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\ENTITY\\Cajero.cs",
+              "RelativeToolTip": "ENTITY\\Cajero.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T03:59:16.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Factura.cs",
+              "DocumentMoniker": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\ENTITY\\Factura.cs",
+              "RelativeDocumentMoniker": "ENTITY\\Factura.cs",
+              "ToolTip": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\ENTITY\\Factura.cs*",
+              "RelativeToolTip": "ENTITY\\Factura.cs*",
+              "ViewState": "AQIAABMAAAAAAAAAAAAqwBYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T04:01:15.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CertificadoDigital.cs",
+              "DocumentMoniker": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\ENTITY\\CertificadoDigital.cs",
+              "RelativeDocumentMoniker": "ENTITY\\CertificadoDigital.cs",
+              "ToolTip": "C:\\Users\\Valeri\\OneDrive\\Desktop\\DeluxeBar\\ProyectoDeluxe\\ENTITY\\CertificadoDigital.cs",
+              "RelativeToolTip": "ENTITY\\CertificadoDigital.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T03:58:26.218Z"
             }
           ]
         }
