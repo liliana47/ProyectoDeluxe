@@ -110,7 +110,7 @@
             </DataGrid.Resources>
 
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Cedula" Binding="{Binding Cedula}" Width="100">
+                <DataGridTextColumn Header="Cedula" Binding="{Binding Id}" Width="100">
                     <DataGridTextColumn.ElementStyle>
                         <Style TargetType="TextBlock">
                             <Setter Property="Background" Value="{DynamicResource TertiaryBackgroundColor}"/>
@@ -120,7 +120,7 @@
                         </Style>
                     </DataGridTextColumn.ElementStyle>
                 </DataGridTextColumn>
-                <DataGridTextColumn Header="Nombre" Binding="{Binding Nombres}" Width="100">
+                <DataGridTextColumn Header="Nombre" Binding="{Binding Nombre}" Width="100">
                     <DataGridTextColumn.ElementStyle>
                         <Style TargetType="TextBlock">
                             <Setter Property="Background" Value="{DynamicResource TertiaryBackgroundColor}"/>
@@ -130,7 +130,7 @@
                         </Style>
                     </DataGridTextColumn.ElementStyle>
                 </DataGridTextColumn>
-                <DataGridTextColumn Header="Apellido" Binding="{Binding Apellidos}" Width="100">
+                <DataGridTextColumn Header="Apellido" Binding="{Binding Cantidad}" Width="100">
                     <DataGridTextColumn.ElementStyle>
                         <Style TargetType="TextBlock">
                             <Setter Property="Background" Value="{DynamicResource TertiaryBackgroundColor}"/>
@@ -140,7 +140,7 @@
                         </Style>
                     </DataGridTextColumn.ElementStyle>
                 </DataGridTextColumn>
-                <DataGridTextColumn Header="Noches" Binding="{Binding CantidadNoches}" Width="100">
+                <DataGridTextColumn Header="Noches" Binding="{Binding PrecioUnitario, StringFormat=C}" Width="100">
                     <DataGridTextColumn.ElementStyle>
                         <Style TargetType="TextBlock">
                             <Setter Property="Background" Value="{DynamicResource TertiaryBackgroundColor}"/>
@@ -150,7 +150,7 @@
                         </Style>
                     </DataGridTextColumn.ElementStyle>
                 </DataGridTextColumn>
-                <DataGridTextColumn Header="THabitacion" Binding="{Binding TipoHabitacion}" Width="110">
+                <DataGridTextColumn Header="THabitacion" Binding="{Binding Impuesto}" Width="110">
                     <DataGridTextColumn.ElementStyle>
                         <Style TargetType="TextBlock">
                             <Setter Property="Background" Value="{DynamicResource TertiaryBackgroundColor}"/>
@@ -160,16 +160,7 @@
                         </Style>
                     </DataGridTextColumn.ElementStyle>
                 </DataGridTextColumn>
-                <DataGridTextColumn Header="NHabitacion" Binding="{Binding NumeroHabitacion}" Width="50">
-                    <DataGridTextColumn.ElementStyle>
-                        <Style TargetType="TextBlock">
-                            <Setter Property="Background" Value="{DynamicResource TertiaryBackgroundColor}"/>
-                            <Setter Property="FontWeight" Value="SemiBold"/>
-                            <Setter Property="Foreground" Value="{DynamicResource PrimaryPurpleText}"/>
-                            <Setter Property="VerticalAlignment" Value="Center"/>
-                        </Style>
-                    </DataGridTextColumn.ElementStyle>
-                </DataGridTextColumn>
+                
                 <DataGridTextColumn Header="FechaRegistro" Binding="{Binding FechaRegistro}" Width="130">
                     <DataGridTextColumn.ElementStyle>
                         <Style TargetType="TextBlock">

@@ -47,7 +47,7 @@ namespace DAL
                                 Nombre = reader["Nombre"].ToString(),
                                 Descripcion = reader["Descripcion"].ToString(),
                                 Cantidad = Convert.ToInt16(reader["Cantidad"]),
-                                PrecioUnitario = Convert.ToInt32(reader["Cantidad"]),
+                                PrecioUnitario = Convert.ToDouble(reader["Precio_Unitario"]),
                                 Impuesto = Convert.ToInt32(reader["Cantidad"])
                             };
 
