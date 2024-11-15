@@ -8,8 +8,8 @@ namespace ENTITY
 {
     public class Producto
     {
-        public int Id_Producto { get; set; }
-        public string Nombre_Producto { get; set; }
+        public int Id { get; set; }
+        public string Nombre { get; set; }
         public string Descripcion { get; set; }
         public int Cantidad { get; set; }
         public double PrecioUnitario { get; set; }
@@ -17,9 +17,9 @@ namespace ENTITY
 
         public Producto() { }
 
-        public Producto(string nombreProducto, string descripcion, int cantidad, double precioUnitario)
+        public Producto(string nombre, string descripcion, int cantidad, double precioUnitario)
         {
-            Nombre_Producto = nombreProducto;
+            Nombre = nombre;
             Descripcion = descripcion;
             Cantidad = cantidad;
             PrecioUnitario = precioUnitario;
@@ -38,7 +38,7 @@ namespace ENTITY
        
         public bool ValidarProducto()
         {
-            return !string.IsNullOrEmpty(Nombre_Producto) && Cantidad > 0 && PrecioUnitario > 0;
+            return !string.IsNullOrEmpty(Nombre) && Cantidad > 0 && PrecioUnitario > 0;
         }
     }
 }

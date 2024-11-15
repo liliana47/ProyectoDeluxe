@@ -13,15 +13,14 @@ namespace DAL
             using (OracleConnection connection = DatabaseConnection.GetConnection())
             {
                 connection.Open();
-                string query = "INSERT INTO productos (Nombre, Descripcion, Cantidad, Precio_Unitario, Impuesto)VALUES(:nombre, :descripcion, :cantidad, :preciounitario, :impuesto)";
+                string query = "INSERT INTO productos (Nombre, Descripcion, Cantidad, Precio_Unitario)VALUES(:nombre, :descripcion, :cantidad, :preciounitario)";
 
                 using (OracleCommand command = new OracleCommand(query, connection))
                 {
-                    command.Parameters.Add(":nombre", producto.Nombre_Producto);
+                    command.Parameters.Add(":nombre", producto.Nombre);
                     command.Parameters.Add(":descrípcion", producto.Descripcion);
                     command.Parameters.Add(":cantidad", producto.Cantidad);
                     command.Parameters.Add(":preciounitario", producto.PrecioUnitario);
-                    command.Parameters.Add(":impuesto", producto.Impuesto);
                     command.ExecuteNonQuery();
                 }
             }
@@ -44,8 +43,8 @@ namespace DAL
                         {
                             Producto producto = new Producto
                             {
-                                Id_Producto = Convert.ToInt32(reader["Id"]),
-                                Nombre_Producto = reader["Nombre"].ToString(),
+                                Id = Convert.ToInt32(reader["Id"]),
+                                Nombre = reader["Nombre"].ToString(),
                                 Descripcion = reader["Descripcion"].ToString(),
                                 Cantidad = Convert.ToInt16(reader["Cantidad"]),
                                 PrecioUnitario = Convert.ToInt32(reader["Cantidad"]),

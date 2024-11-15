@@ -67,6 +67,27 @@
                          Width="295"
                          HorizontalAlignment="Center">
                 </TextBox>
+
+                <TextBlock Text="Impuesto"
+                           Foreground="{DynamicResource PrimaryPurpleText}"
+                           FontWeight="SemiBold"
+                           FontSize="20"
+                           HorizontalAlignment="Left"
+                           Margin="55 40 0 8"/>
+
+                <TextBox x:Name="txtImpuesto"
+                         FontSize="16"
+                         FontWeight="Normal"
+                         FontFamily="Montserrat"                            
+                         Foreground="{DynamicResource PrimaryPurpleText}"
+                         CaretBrush="LightGray"
+                         Background="Transparent"
+                         BorderBrush="{DynamicResource PrimaryPurpleText}"
+                         BorderThickness="0,0,0,2"
+                         Height="25"
+                         Width="295"
+                         HorizontalAlignment="Center">
+                </TextBox>
             </StackPanel>
 
             <StackPanel Grid.Row="1" Orientation="Vertical" Margin="236,0,0,310" Grid.Column="1" Grid.RowSpan="2">
@@ -114,7 +135,7 @@
             </StackPanel>
 
             <StackPanel Grid.Row="2" Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="111,215,0,0" Grid.Column="1">
-                <Button x:Name="btnRegistrar" Content="Registrar producto" Cursor="Hand"
+                <Button x:Name="btnRegistrar" Content="Registrar producto" Cursor="Hand" Click="btnAgregar_Click"
                         FontSize="22"
                         FontFamily="Montserrat"
                         FontWeight="Bold"

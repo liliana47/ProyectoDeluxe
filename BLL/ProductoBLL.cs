@@ -12,6 +12,19 @@ namespace BLL
     {
         private ProductoDAL productoDAL = new ProductoDAL();
 
+        public void AgregarProducto(string nombre, string descripcion, int cantidad, double preciounitario)
+        {
+            Producto producto = new Producto()
+            {
+                Nombre = nombre,
+                Descripcion = descripcion,
+                Cantidad = cantidad,
+                PrecioUnitario = preciounitario,
+            };
+
+            productoDAL.AgregarProducto(producto);
+        }
+
         public List<Producto> ObtenerProductos()
         {
             return productoDAL.ObtenerProductos();
