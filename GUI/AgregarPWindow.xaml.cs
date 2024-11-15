@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using BLL;
 
 namespace GUI
 {
@@ -19,14 +20,22 @@ namespace GUI
     /// </summary>
     public partial class AgregarPWindow : Window
     {
+        private ProductoBLL productoBLL = new ProductoBLL(); 
+
         public AgregarPWindow()
         {
             InitializeComponent();
         }
 
-        public void AgregarProducto (object sender, RoutedEventArgs e)
+        public void btnAgregar_Click(object sender, RoutedEventArgs e)
         {
+            string nombre = txtNombre.Text;
+            string descripcion = txtDescripcion.Text;
+            int cantidad = Convert.ToInt16(txtCantidad.Text);
+            double precio = Convert.ToDouble(txtPrecioUnitario.Text);
+            double impuesto = Convert.ToDouble(txtImpuesto.Text);
 
+            productoBLL.AgregarProducto(nombre, descripcion,cantidad, precio);
         }
 
         private void btnClose_Click(object sender, RoutedEventArgs e)

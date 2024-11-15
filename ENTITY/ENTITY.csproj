@@ -48,7 +48,6 @@
     <Compile Include="Factura.cs" />
     <Compile Include="FacturacionElectronica.cs" />
     <Compile Include="Impuesto.cs" />
-    <Compile Include="Persona.cs" />
     <Compile Include="Producto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
