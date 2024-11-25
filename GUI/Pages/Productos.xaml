@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:GUI.Pages"
       mc:Ignorable="d" 
       Height="800" Width="1340"
-      Title="Productos" Background="{DynamicResource PrimaryColor}">
+      Title="Productos" Background="#f8f6c6">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -15,11 +15,11 @@
         </Grid.RowDefinitions>
 
         <Label Content="Lista de productos" FontSize="20" FontWeight="Bold" HorizontalAlignment="Left" Margin="0,20,0,0" Foreground="{DynamicResource PrimaryPurpleText}"/>
-        <Label Content="Nombre" FontSize="15" FontWeight="Bold" Margin="5 80 0 12" Foreground="{DynamicResource BlackColor}"/>
-        <Label Content="Descripcion" FontSize="15" FontWeight="Bold" Margin="105 80 0 12" Foreground="{DynamicResource BlackColor}"/>
-        <Label Content="Cantidad" FontSize="15" FontWeight="Bold" Margin="205 80 0 12" Foreground="{DynamicResource BlackColor}"/>
-        <Label Content="Precio Unitario" FontSize="15" FontWeight="Bold" Margin="305 80 0 12" Foreground="{DynamicResource BlackColor}"/>
-        <Label Content="Impuesto" FontSize="15" FontWeight="Bold" Margin="445 80 0 12" Foreground="{DynamicResource BlackColor}"/>
+        <Label Content="ID" FontSize="15" FontWeight="Bold" Margin="5 80 0 12" Foreground="{DynamicResource BlackColor}"/>
+        <Label Content="Nombre" FontSize="15" FontWeight="Bold" Margin="55 80 0 12" Foreground="{DynamicResource BlackColor}"/>
+        <Label Content="Descripcion" FontSize="15" FontWeight="Bold" Margin="235 80 0 12" Foreground="{DynamicResource BlackColor}"/>
+        <Label Content="Cantidad" FontSize="15" FontWeight="Bold" Margin="1145 80 0 12" Foreground="{DynamicResource BlackColor}"/>
+        <Label Content="Precio Unit." FontSize="15" FontWeight="Bold" Margin="1245 80 0 12" Foreground="{DynamicResource BlackColor}"/>
 
         <Button x:Name="btnRegistrar" Content="Agregar Producto" 
                 FontSize="18"
@@ -57,7 +57,7 @@
 
         </Button>
 
-        <DataGrid x:Name="ProductosDataGrid" Grid.Row="1" IsReadOnly="True" BorderThickness="0" AutoGenerateColumns="False" CanUserReorderColumns="False" CanUserAddRows="False" Background="{DynamicResource PrimaryColor}" RowBackground="{DynamicResource PrimaryColor}" GridLinesVisibility="None" SelectionMode="Single" HeadersVisibility="None">
+        <DataGrid x:Name="ProductosDataGrid" Grid.Row="1" IsReadOnly="True" BorderThickness="0" AutoGenerateColumns="False" CanUserReorderColumns="False" CanUserAddRows="False" Background="#f8f6c6" RowBackground="#f8f6c6" GridLinesVisibility="None" SelectionMode="Single" HeadersVisibility="None">
             <DataGrid.Resources>
                 <Style TargetType="DataGridCell">
                     <Setter Property="BorderThickness" Value="0"/>
@@ -110,7 +110,7 @@
             </DataGrid.Resources>
 
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Cedula" Binding="{Binding Id}" Width="100">
+                <DataGridTextColumn Header="Cedula" Binding="{Binding Id}" Width="50">
                     <DataGridTextColumn.ElementStyle>
                         <Style TargetType="TextBlock">
                             <Setter Property="Background" Value="{DynamicResource TertiaryBackgroundColor}"/>
@@ -120,7 +120,17 @@
                         </Style>
                     </DataGridTextColumn.ElementStyle>
                 </DataGridTextColumn>
-                <DataGridTextColumn Header="Nombre" Binding="{Binding Nombre}" Width="100">
+                <DataGridTextColumn Header="Nombre" Binding="{Binding Nombre}" Width="180">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="Background" Value="{DynamicResource TertiaryBackgroundColor}"/>
+                            <Setter Property="Foreground" Value="{DynamicResource PrimaryPurpleText}"/>
+                            <Setter Property="FontWeight" Value="SemiBold"/>
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Nombre" Binding="{Binding Descripcion}" Width="910">
                     <DataGridTextColumn.ElementStyle>
                         <Style TargetType="TextBlock">
                             <Setter Property="Background" Value="{DynamicResource TertiaryBackgroundColor}"/>
@@ -140,28 +150,7 @@
                         </Style>
                     </DataGridTextColumn.ElementStyle>
                 </DataGridTextColumn>
-                <DataGridTextColumn Header="Noches" Binding="{Binding PrecioUnitario, StringFormat=C}" Width="100">
-                    <DataGridTextColumn.ElementStyle>
-                        <Style TargetType="TextBlock">
-                            <Setter Property="Background" Value="{DynamicResource TertiaryBackgroundColor}"/>
-                            <Setter Property="FontWeight" Value="SemiBold"/>
-                            <Setter Property="Foreground" Value="{DynamicResource PrimaryPurpleText}"/>
-                            <Setter Property="VerticalAlignment" Value="Center"/>
-                        </Style>
-                    </DataGridTextColumn.ElementStyle>
-                </DataGridTextColumn>
-                <DataGridTextColumn Header="THabitacion" Binding="{Binding Impuesto}" Width="110">
-                    <DataGridTextColumn.ElementStyle>
-                        <Style TargetType="TextBlock">
-                            <Setter Property="Background" Value="{DynamicResource TertiaryBackgroundColor}"/>
-                            <Setter Property="FontWeight" Value="SemiBold"/>
-                            <Setter Property="Foreground" Value="{DynamicResource PrimaryPurpleText}"/>
-                            <Setter Property="VerticalAlignment" Value="Center"/>
-                        </Style>
-                    </DataGridTextColumn.ElementStyle>
-                </DataGridTextColumn>
-                
-                <DataGridTextColumn Header="FechaRegistro" Binding="{Binding FechaRegistro}" Width="130">
+                <DataGridTextColumn Header="Noches" Binding="{Binding PrecioUnitario, StringFormat=C}" Width="75">
                     <DataGridTextColumn.ElementStyle>
                         <Style TargetType="TextBlock">
                             <Setter Property="Background" Value="{DynamicResource TertiaryBackgroundColor}"/>

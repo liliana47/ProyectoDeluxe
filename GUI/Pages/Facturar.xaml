@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:GUI.Pages"
       mc:Ignorable="d" 
       Height="800" Width="1340"
-      Title="Facturar" Background="{DynamicResource PrimaryColor}">
+      Title="Facturar" Background="#f8f6c6">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -19,45 +19,8 @@
         <Label Content="Descripcion" FontSize="15" FontWeight="Bold" Margin="105 80 0 12" Foreground="{DynamicResource BlackColor}"/>
         <Label Content="Cantidad" FontSize="15" FontWeight="Bold" Margin="205 80 0 12" Foreground="{DynamicResource BlackColor}"/>
         <Label Content="Precio Unitario" FontSize="15" FontWeight="Bold" Margin="305 80 0 12" Foreground="{DynamicResource BlackColor}"/>
-        <Label Content="Impuesto" FontSize="15" FontWeight="Bold" Margin="445 80 0 12" Foreground="{DynamicResource BlackColor}"/>
 
-        <Button x:Name="btnRegistrar" Content="Registrar Venta" 
-            FontSize="18"
-            FontFamily="Montserrat"
-            FontWeight="Bold"
-            Height="40"
-            HorizontalAlignment="Right"
-            Margin="0, -40, 20, 0"
-            Width="240"
-            Cursor="Hand"
-            Click="AgregarVenta_Click">
-            <Button.Style>
-                <Style TargetType="{x:Type Button}">
-                    <Setter Property="Background" Value="{DynamicResource PrimaryPurpleText}"/>
-                    <Setter Property="Foreground" Value="{DynamicResource PrimaryColor}"/>
-                    <Style.Triggers>
-                        <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Background" Value="{DynamicResource SecundaryPurpleText}"/>
-                            <Setter Property="Foreground" Value="{DynamicResource WhiteColor}"/>
-                        </Trigger>
-                    </Style.Triggers>
-                </Style>
-            </Button.Style>
-
-            <Button.Template>
-                <ControlTemplate TargetType="{x:Type Button}">
-                    <Border Width="220" Height="40"
-                CornerRadius="12"
-                Background="{TemplateBinding Background}">
-                        <ContentPresenter VerticalAlignment="Center"
-                                  HorizontalAlignment="Center"/>
-                    </Border>
-                </ControlTemplate>
-            </Button.Template>
-
-        </Button>
-
-        <DataGrid x:Name="ProductosDataGrid" Grid.Row="1" IsReadOnly="True" BorderThickness="0" AutoGenerateColumns="False" CanUserReorderColumns="False" CanUserAddRows="False" Background="{DynamicResource PrimaryColor}" RowBackground="{DynamicResource PrimaryColor}" GridLinesVisibility="None" SelectionMode="Single" HeadersVisibility="None">
+        <DataGrid x:Name="ProductosDataGrid" Grid.Row="1" IsReadOnly="True" BorderThickness="0" AutoGenerateColumns="False" CanUserReorderColumns="False" CanUserAddRows="False" Background="#f8f6c6" RowBackground="{DynamicResource PrimaryColor}" GridLinesVisibility="None" SelectionMode="Single" HeadersVisibility="None">
             <DataGrid.Resources>
                 <Style TargetType="DataGridCell">
                     <Setter Property="BorderThickness" Value="0"/>

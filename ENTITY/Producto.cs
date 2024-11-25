@@ -13,7 +13,6 @@ namespace ENTITY
         public string Descripcion { get; set; }
         public int Cantidad { get; set; }
         public double PrecioUnitario { get; set; }
-        public double Impuesto { get; set; }
 
         public Producto() { }
 
@@ -23,22 +22,6 @@ namespace ENTITY
             Descripcion = descripcion;
             Cantidad = cantidad;
             PrecioUnitario = precioUnitario;
-            Impuesto = 0.0;
-        }
-
-        public double CalcularValorTotal()
-        {
-            return (PrecioUnitario * Cantidad) + Impuesto;
-        }
-        public void AsignarImpuesto(double porcentajeImpuesto)
-        {
-            Impuesto = (PrecioUnitario * Cantidad) * (porcentajeImpuesto / 100);
-
-        }
-       
-        public bool ValidarProducto()
-        {
-            return !string.IsNullOrEmpty(Nombre) && Cantidad > 0 && PrecioUnitario > 0;
         }
     }
 }

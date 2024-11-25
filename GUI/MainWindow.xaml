@@ -10,7 +10,7 @@
         WindowStartupLocation="CenterScreen"
         ResizeMode="NoResize"
         WindowStyle="None"
-        Background="{DynamicResource PrimaryColor}">
+        Background="#f8f6c6">
     <Border>
         <Grid>
             <Border CornerRadius="8"
@@ -18,16 +18,16 @@
             Height="60"
                     Margin="10,10,10,0"
                     VerticalAlignment="Top"
-            Background="Purple">
+            Background="#cba8cd">
                 <Grid x:Name="gridMenu">
 
 
                     <StackPanel Grid.Row="0" Orientation="Horizontal">
                         
-                        <Label Content="Deluxe Bar" Foreground="White" FontWeight="Bold" FontSize="25" Height="40" VerticalAlignment="Top" Margin="10,0,30,0"/>
+                        <Label Content="Deluxe Bar" Foreground="Purple" FontWeight="Bold" FontSize="25" Height="40" VerticalAlignment="Top" Margin="10,0,30,0"/>
                         <RadioButton x:Name="rdProductos" Content="Productos" Style="{DynamicResource MenuRadioButtonStyleRProductos}" Cursor="Hand" Click="rdProductos_Click" Checked="rdProductos_Checked" Height="36"/>
-                        <RadioButton x:Name="rdVentas" Content="Ventas" Style="{DynamicResource MenuRadioButtonStyleRVentas}" Cursor="Hand" Click="rdVentas_Click" Checked="rdVentas_Checked" Height="36"/>
-                        
+                        <RadioButton x:Name="rdMovimientos" Content="Movimientos" Style="{DynamicResource MenuRadioButtonStyleRMovimientos}" Cursor="Hand" Click="rdMovimientos_Click" Checked="rdMovimientos_Checked" Height="36"/>
+                        <RadioButton x:Name="rdVentas" Content="Facturar" Style="{DynamicResource MenuRadioButtonStyleRVentas}" Cursor="Hand" Click="rdVentas_Click" Checked="rdVentas_Checked" Height="36"/>
                     </StackPanel>
 
                     <StackPanel Grid.Row="1" VerticalAlignment="Center"/>

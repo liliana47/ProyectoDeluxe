@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         WindowStyle="None"
         Title="AgregarPWindow" Height="672" Width="820">
-    
-    <Border CornerRadius="5" Background="{DynamicResource PrimaryColor}">
+
+    <Border CornerRadius="5" Background="#f8f6c6">
         <Grid x:Name="gridProductos">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="179*"/>
@@ -20,14 +20,14 @@
                 <RowDefinition Height="500"/>
             </Grid.RowDefinitions>
 
-            <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center" Grid.Column="1" Margin="0,0,0,0">
+            <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center" Grid.Column="1">
                 <Label Content="Agregar Productos" Foreground="{DynamicResource PrimaryPurpleText}" FontWeight="Bold" FontSize="24" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Margin="-150 18 0 0"/>
             </StackPanel>
 
             <StackPanel Grid.Row="1" Orientation="Vertical" Margin="0,0,415,310" Grid.ColumnSpan="2" Grid.RowSpan="2">
 
                 <TextBlock Text="Nombre"
-                           Foreground="{DynamicResource PrimaryPurpleText}"
+                           Foreground="Black"
                            FontWeight="SemiBold"
                            FontSize="20"
                            HorizontalAlignment="Left"
@@ -48,7 +48,7 @@
                 </TextBox>
 
                 <TextBlock Text="Cantidad"
-                           Foreground="{DynamicResource PrimaryPurpleText}"
+                           Foreground="Black"
                            FontWeight="SemiBold"
                            FontSize="20"
                            HorizontalAlignment="Left"
@@ -67,32 +67,11 @@
                          Width="295"
                          HorizontalAlignment="Center">
                 </TextBox>
-
-                <TextBlock Text="Impuesto"
-                           Foreground="{DynamicResource PrimaryPurpleText}"
-                           FontWeight="SemiBold"
-                           FontSize="20"
-                           HorizontalAlignment="Left"
-                           Margin="55 40 0 8"/>
-
-                <TextBox x:Name="txtImpuesto"
-                         FontSize="16"
-                         FontWeight="Normal"
-                         FontFamily="Montserrat"                            
-                         Foreground="{DynamicResource PrimaryPurpleText}"
-                         CaretBrush="LightGray"
-                         Background="Transparent"
-                         BorderBrush="{DynamicResource PrimaryPurpleText}"
-                         BorderThickness="0,0,0,2"
-                         Height="25"
-                         Width="295"
-                         HorizontalAlignment="Center">
-                </TextBox>
             </StackPanel>
 
             <StackPanel Grid.Row="1" Orientation="Vertical" Margin="236,0,0,310" Grid.Column="1" Grid.RowSpan="2">
                 <TextBlock Text="Descripcion"
-                           Foreground="{DynamicResource PrimaryPurpleText}"
+                           Foreground="Black"
                            FontWeight="SemiBold"
                            FontSize="20"
                            HorizontalAlignment="Left"
@@ -113,7 +92,7 @@
                 </TextBox>
 
                 <TextBlock Text="Precio Unitario"
-                           Foreground="{DynamicResource PrimaryPurpleText}"
+                           Foreground="Black"
                            FontWeight="SemiBold"
                            FontSize="20"
                            HorizontalAlignment="Left"
