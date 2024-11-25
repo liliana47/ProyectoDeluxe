@@ -47,5 +47,20 @@ namespace BLL
                 throw new ArgumentException($"El campo '{nombreCampo}' es obligatorio.");
             }
         }
+
+        public class ClienteManager
+        {
+            public void ValidarCliente(Cliente cliente)
+            {
+                if (string.IsNullOrWhiteSpace(cliente.Cedula))
+                    throw new Exception("La cédula es obligatoria.");
+                if (string.IsNullOrWhiteSpace(cliente.Nombre))
+                    throw new Exception("El nombre es obligatorio.");
+                if (string.IsNullOrWhiteSpace(cliente.Apellido))
+                    throw new Exception("El apellido es obligatorio.");
+                if (!string.IsNullOrWhiteSpace(cliente.CorreoElectronico) && !cliente.CorreoElectronico.Contains("@"))
+                    throw new Exception("El correo electrónico no es válido.");
+            }
+        }
     }
 }

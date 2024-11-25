@@ -15,6 +15,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using static BLL.ClienteBLL;
 
 namespace GUI
 {
@@ -23,9 +24,41 @@ namespace GUI
     /// </summary>
     public partial class AgregarCWindow : Window
     {
+        public Cliente ClienteRegistrado { get;  set; }
         public AgregarCWindow()
         {
             InitializeComponent();
+        }
+
+        private void btnRegistrarCliente_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                // Crear el objeto Cliente con los datos del formulario
+                Cliente cliente = new Cliente
+                {
+                    Cedula = txtCedula.Text,
+                    Nombre = txtNombre.Text,
+                    Apellido = txtApellido.Text,
+                    Telefono = txtTelefono.Text,
+                    Direccion = txtDireccion.Text,
+                    CorreoElectronico = txtCorreo.Text
+                };
+
+                // Validar los datos utilizando la capa de negocio
+                ClienteManager clienteManager = new ClienteManager();
+                clienteManager.ValidarCliente(cliente);
+
+                // Si todo es correcto, registrar el cliente y cerrar el formulario
+                ClienteRegistrado = cliente;
+                this.DialogResult = true; // Retornar OK al formulario principal
+                this.Close();
+            }
+            catch (Exception ex)
+            {
+                // Mostrar mensaje de error usando MessageBox
+                MessageBox.Show(ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
 
         private void RegistrarCliente_Click(object sender, RoutedEventArgs e)

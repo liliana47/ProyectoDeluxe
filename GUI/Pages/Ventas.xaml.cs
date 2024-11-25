@@ -296,7 +296,7 @@ namespace GUI.Pages
             txtNIT.Text = "222222222";
             txtTelefono.Text = "NA";
             txtDireccion.Text = "PUNTO DE VENTA";
-            txtCorreo.Text = "no-reply@empresa.com";
+            txtCorreo.Text = "deluxebarvalledupar@gmail.com";
         }
 
         private void AgregarCamposDeEntrada()
@@ -441,5 +441,24 @@ namespace GUI.Pages
             txtPrecioUnitario.Text = string.Empty;
             txtTotal.Text = string.Empty;
         }
+
+        private void btnCrearNuevo_Click(object sender, RoutedEventArgs e)
+        {
+            // Abrir ventana secundaria para agregar cliente
+            AgregarCWindow addClientWindow = new AgregarCWindow();
+            if (addClientWindow.ShowDialog() == true) // DialogResult
+            {
+                // Obtener los datos del cliente registrado
+                Cliente cliente = addClientWindow.ClienteRegistrado;
+
+                // Mostrar los datos en los campos de texto
+                txtNombreCliente.Text = $"{cliente.Nombre} {cliente.Apellido}";
+                txtNIT.Text = cliente.Cedula;
+                txtTelefono.Text = cliente.Telefono;
+                txtDireccion.Text = cliente.Direccion;
+                txtCorreo.Text = cliente.CorreoElectronico;
+            }
+        }
     }
+
 }
