@@ -9,11 +9,11 @@ namespace ENTITY
 {
     public class Cliente 
     {
+        public string Cedula { get; set; }
         public string Nombre { get; set; }
         public string Apellido { get; set; }
-        public string TipoDocumento { get; set; }
-        public int NumeroDocumento { get; set; }
-        public int Telefono { get; set; }
+        public string Direccion { get; set; }
+        public string Telefono { get; set; }
         public string CorreoElectronico { get; set; }
 
         public Cliente()
@@ -21,12 +21,12 @@ namespace ENTITY
 
         }
 
-        public Cliente(string nombre, string apellido, string tipoDocumento, int numeroDocumento, int telefono, string correoElectronico)
+        public Cliente(string cedula, string nombre, string apellido, string direccion, string telefono, string correoElectronico)
         {
             Nombre = nombre;
             Apellido = apellido;
-            TipoDocumento = tipoDocumento;
-            NumeroDocumento = numeroDocumento;
+            Cedula = cedula;
+            Direccion = direccion;
             Telefono = telefono;
             CorreoElectronico = correoElectronico;
         }

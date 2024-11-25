@@ -29,5 +29,11 @@ namespace BLL
         {
             return productoDAL.ObtenerProductos();
         }
+
+        public Producto ObtenerProductoPorCodigo(int id)
+        {
+            return productoDAL.ObtenerProductoPorCodigo(id);
+        }
+
     }
 }

@@ -23,12 +23,12 @@ namespace GUI
             InitializeComponent();
         }
 
-        private void rdVentas_Click(object sender, RoutedEventArgs e)
+        private void rdMovimientos_Click(object sender, RoutedEventArgs e)
         {
             frameContent.Navigate(new Facturar());
         }
 
-        private void rdVentas_Checked(object sender, RoutedEventArgs e)
+        private void rdMovimientos_Checked(object sender, RoutedEventArgs e)
         {
 
         }
@@ -39,6 +39,16 @@ namespace GUI
         }
 
         private void rdProductos_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void rdVentas_Click(object sender, RoutedEventArgs e)
+        {
+            frameContent.Navigate(new Ventas());
+        }
+
+        private void rdVentas_Checked(object sender, RoutedEventArgs e)
         {
 
         }

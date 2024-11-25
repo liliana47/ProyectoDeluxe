@@ -33,7 +33,6 @@ namespace GUI
             string descripcion = txtDescripcion.Text;
             int cantidad = Convert.ToInt16(txtCantidad.Text);
             double precio = Convert.ToDouble(txtPrecioUnitario.Text);
-            double impuesto = Convert.ToDouble(txtImpuesto.Text);
 
             productoBLL.AgregarProducto(nombre, descripcion,cantidad, precio);
         }

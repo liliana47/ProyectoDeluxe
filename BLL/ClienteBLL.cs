@@ -12,20 +12,40 @@ namespace BLL
     {
         ClienteDAL clienteDAL = new ClienteDAL();
 
-        public void AgregarCliente(string nombre, string apellido, string tipodocumento, int numerodocumento, int telefono, string correo)
+        public void AgregarCliente(string cedula, string nombre, string apellido, string direccion, string telefono, string correo)
         {
+            ValidarCampoObligatorio(cedula, "Cedula");
+            ValidarCampoObligatorio(nombre, "Nombre");
+            ValidarCampoObligatorio(apellido, "Apellido");
+            ValidarCampoObligatorio(direccion, "Direccion");
+            ValidarCampoObligatorio(telefono, "Telefono");
+            ValidarCampoObligatorio(correo, "Correo");
+
+            if (clienteDAL.CedulaExiste(cedula))
+            {
+                throw new ArgumentException("La cédula ya está registrada.");
+            }
+
             Cliente cliente = new Cliente
             {
+                Cedula = cedula,
                 Nombre = nombre,
                 Apellido = apellido,
-                TipoDocumento = tipodocumento,
-                NumeroDocumento = numerodocumento,
+                Direccion = direccion,
                 Telefono = telefono,
-                CorreoElectronico = correo
+                CorreoElectronico = correo,
             };
 
             clienteDAL.agregarCliente(cliente);
 
+        }
+
+        private void ValidarCampoObligatorio(string valor, string nombreCampo)
+        {
+            if (string.IsNullOrEmpty(valor))
+            {
+                throw new ArgumentException($"El campo '{nombreCampo}' es obligatorio.");
+            }
         }
     }
 }

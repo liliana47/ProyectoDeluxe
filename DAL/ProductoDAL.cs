@@ -47,9 +47,7 @@ namespace DAL
                                 Nombre = reader["Nombre"].ToString(),
                                 Descripcion = reader["Descripcion"].ToString(),
                                 Cantidad = Convert.ToInt16(reader["Cantidad"]),
-                                PrecioUnitario = Convert.ToDouble(reader["Precio_Unitario"]),
-                                Impuesto = Convert.ToInt32(reader["Cantidad"])
-                            };
+                                PrecioUnitario = Convert.ToDouble(reader["Precio_Unitario"])                            };
 
                             productos.Add(producto);
                         }
@@ -59,5 +57,38 @@ namespace DAL
             }
             return productos;
         }
+
+        public Producto ObtenerProductoPorCodigo(int id)
+        {
+            Producto producto = null;
+
+            using (OracleConnection connection = DatabaseConnection.GetConnection())
+            {
+                string query = "SELECT * FROM productos WHERE Id = :id";
+
+                connection.Open();
+                using (OracleCommand command = new OracleCommand(query, connection))
+                {
+                    command.Parameters.Add(":id", id);
+
+                    using (OracleDataReader reader = command.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            producto = new Producto
+                            {
+                                Id = Convert.ToInt32(reader["Id"]),
+                                Nombre = reader["Nombre"].ToString(),
+                                Descripcion = reader["Descripcion"].ToString(),
+                                Cantidad = Convert.ToInt32(reader["Cantidad"]),
+                                PrecioUnitario = Convert.ToDouble(reader["Precio_Unitario"])
+                            };
+                        }
+                    }
+                }
+            }
+            return producto;
+        }
+
     }
 }

@@ -55,11 +55,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="AgregarCWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="AgregarPWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="AgregarVWindow.xaml">
+    <Page Include="ListarProductos.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -67,15 +71,18 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="AgregarCWindow.xaml.cs">
+      <DependentUpon>AgregarCWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="AgregarPWindow.xaml.cs">
       <DependentUpon>AgregarPWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="AgregarVWindow.xaml.cs">
-      <DependentUpon>AgregarVWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ListarProductos.xaml.cs">
+      <DependentUpon>ListarProductos.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -86,6 +93,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\Productos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Ventas.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -104,6 +115,9 @@
     </Compile>
     <Compile Include="Pages\Productos.xaml.cs">
       <DependentUpon>Productos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Ventas.xaml.cs">
+      <DependentUpon>Ventas.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
@@ -139,6 +153,9 @@
       <Project>{3f8b7538-d434-4aeb-8daa-3045210b602f}</Project>
       <Name>ENTITY</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Search.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

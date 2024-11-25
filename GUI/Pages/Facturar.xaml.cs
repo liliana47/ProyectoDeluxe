@@ -24,18 +24,5 @@ namespace GUI.Pages
         {
             InitializeComponent();
         }
-
-        public void AgregarVenta_Click(object sender, RoutedEventArgs e)
-        {
-            Window ventasWindow = Window.GetWindow(this);
-            AgregarVWindow venWindow = new AgregarVWindow();
-
-            venWindow.Owner = ventasWindow;
-            venWindow.WindowStartupLocation = WindowStartupLocation.CenterOwner;
-            venWindow.ShowDialog();
-
-            Facturar updateFactura = new Facturar();
-            this.NavigationService.Navigate(updateFactura);
-        }
     }
 }

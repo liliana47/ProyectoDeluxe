@@ -15,18 +15,34 @@ namespace DAL
             using (OracleConnection connection = DatabaseConnection.GetConnection())
             {
                 connection.Open();
-                string query = "INSERT INTO clientes (nombre, apellido, tipodocumento, numerodocumento, telefono, correo)" +
-                               "VALUES (:nombre, :apellido, :tipodocumento, :numerodocumento, :telefono, :correo)";
+                string query = "INSERT INTO clientes (cedula, nombre, apellido, direccion, telefono, correo)" +
+                               "VALUES (:cedula, :nombre, :apellido, :direccion, :telefono, :correo)";
 
                 using (OracleCommand command = new OracleCommand(query, connection))
                 {
+                    command.Parameters.Add(":cedula", cliente.Cedula);
                     command.Parameters.Add(":nombre", cliente.Nombre);
                     command.Parameters.Add(":apellido", cliente.Apellido);
-                    command.Parameters.Add(":tipodocumento", cliente.TipoDocumento);
-                    command.Parameters.Add(":numerodocumento", cliente.NumeroDocumento);
+                    command.Parameters.Add(":direccion", cliente.Direccion);
                     command.Parameters.Add(":telefono", cliente.Telefono);
                     command.Parameters.Add(":correo", cliente.CorreoElectronico);
                     command.ExecuteNonQuery();
+                }
+            }
+        }
+
+        public bool CedulaExiste(string cedula)
+        {
+            using (OracleConnection connection = DatabaseConnection.GetConnection())
+            {
+                connection.Open();
+                string query = "SELECT COUNT(1) FROM clientes WHERE cedula = :cedula";
+
+                using (OracleCommand command = new OracleCommand(query, connection))
+                {
+                    command.Parameters.Add(":cedula", cedula);
+                    int count = Convert.ToInt32(command.ExecuteScalar());
+                    return count > 0;
                 }
             }
         }
