@@ -82,6 +82,7 @@
     <Compile Include="DatabaseConnection.cs" />
     <Compile Include="ProductoDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FacturaDAL.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

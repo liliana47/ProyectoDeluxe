@@ -13,7 +13,7 @@ namespace ENTITY
         public string Descripcion { get; set; }
         public int Cantidad { get; set; }
         public double PrecioUnitario { get; set; }
-
+        public double Total {  get; set; }
         public Producto() { }
 
         public Producto(string nombre, string descripcion, int cantidad, double precioUnitario)

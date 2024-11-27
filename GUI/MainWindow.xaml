@@ -25,9 +25,12 @@
                     <StackPanel Grid.Row="0" Orientation="Horizontal">
                         
                         <Label Content="Deluxe Bar" Foreground="Purple" FontWeight="Bold" FontSize="25" Height="40" VerticalAlignment="Top" Margin="10,0,30,0"/>
+                        <RadioButton x:Name="rdEstadisticas" Content="Estadisticas" Style="{DynamicResource MenuRadioButtonStyleREstadisticas}" Cursor="Hand" Click="rdEstadisticas_Click" Checked="rdEstadisticas_Checked" Height="36"/>
                         <RadioButton x:Name="rdProductos" Content="Productos" Style="{DynamicResource MenuRadioButtonStyleRProductos}" Cursor="Hand" Click="rdProductos_Click" Checked="rdProductos_Checked" Height="36"/>
                         <RadioButton x:Name="rdMovimientos" Content="Movimientos" Style="{DynamicResource MenuRadioButtonStyleRMovimientos}" Cursor="Hand" Click="rdMovimientos_Click" Checked="rdMovimientos_Checked" Height="36"/>
                         <RadioButton x:Name="rdVentas" Content="Facturar" Style="{DynamicResource MenuRadioButtonStyleRVentas}" Cursor="Hand" Click="rdVentas_Click" Checked="rdVentas_Checked" Height="36"/>
+                        <RadioButton x:Name="rdClientes" Content="Clientes" Style="{DynamicResource MenuRadioButtonStyleRClientes}" Cursor="Hand" Click="rdClientes_Click" Checked="rdClientes_Checked" Height="36"/>
+
                     </StackPanel>
 
                     <StackPanel Grid.Row="1" VerticalAlignment="Center"/>

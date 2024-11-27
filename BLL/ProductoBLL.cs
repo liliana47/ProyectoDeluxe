@@ -35,5 +35,9 @@ namespace BLL
             return productoDAL.ObtenerProductoPorCodigo(id);
         }
 
+        public List<(string NombreProducto, int CantidadVendida)> ObtenerProductosMasVendidos()
+        {
+            return productoDAL.ObtenerProductosMasVendidos();
+        }
     }
 }

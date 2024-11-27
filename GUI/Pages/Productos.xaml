@@ -85,8 +85,6 @@
                     </Setter>
                 </Style>
 
-
-
                 <Style TargetType="DataGridRowHeader">
                     <Setter Property="Background" Value="{DynamicResource TertiaryBackgroundColor}"/>
                     <Setter Property="Template">

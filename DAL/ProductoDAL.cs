@@ -90,5 +90,41 @@ namespace DAL
             return producto;
         }
 
+        public List<(string NombreProducto, int CantidadVendida)> ObtenerProductosMasVendidos()
+        {
+            List<(string NombreProducto, int CantidadVendida)> productosMasVendidos = new List<(string, int)>();
+
+            using (OracleConnection connection = DatabaseConnection.GetConnection())
+            {
+                connection.Open();
+                string query = @"
+                    SELECT 
+                        p.nombre_producto AS NombreProducto,
+                        SUM(p.cantidad) AS CantidadVendida
+                    FROM 
+                        productos_factura p
+                    GROUP BY 
+                        p.nombre_producto
+                    ORDER BY 
+                        CantidadVendida DESC
+                    FETCH FIRST 3 ROWS ONLY";
+
+                using (OracleCommand command = new OracleCommand(query, connection))
+                {
+                    using (OracleDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            string nombreProducto = reader["NombreProducto"].ToString();
+                            int cantidadVendida = Convert.ToInt32(reader["CantidadVendida"]);
+
+                            productosMasVendidos.Add((nombreProducto, cantidadVendida));
+                        }
+                    }
+                }
+            }
+
+            return productosMasVendidos;
+        }
     }
 }

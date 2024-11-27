@@ -21,11 +21,22 @@ namespace GUI
         public MainWindow()
         {
             InitializeComponent();
+            frameContent.Content = new Estadisticas();
+        }
+
+        private void rdEstadisticas_Click(object sender, RoutedEventArgs e)
+        {
+            frameContent.Navigate(new Estadisticas());
+        }
+
+        private void rdEstadisticas_Checked(object sender, RoutedEventArgs e)
+        {
+
         }
 
         private void rdMovimientos_Click(object sender, RoutedEventArgs e)
         {
-            frameContent.Navigate(new Facturar());
+            frameContent.Navigate(new Facturas());
         }
 
         private void rdMovimientos_Checked(object sender, RoutedEventArgs e)
@@ -49,6 +60,16 @@ namespace GUI
         }
 
         private void rdVentas_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void rdClientes_Click(object sender, RoutedEventArgs e)
+        {
+            frameContent.Navigate(new Clientes());
+        }
+
+        private void rdClientes_Checked(object sender, RoutedEventArgs e)
         {
 
         }

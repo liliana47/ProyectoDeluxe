@@ -23,6 +23,8 @@ namespace GUI
     /// </summary>
     public partial class AgregarCWindow : Window
     {
+        public Cliente ClienteRegistrado { get; private set; }
+
         public AgregarCWindow()
         {
             InitializeComponent();
@@ -58,7 +60,19 @@ namespace GUI
                 clienteBLL.AgregarCliente(cedula, nombre, apellido, direccion, telefono, correo);
                 MessageBox.Show("Cliente registrado exitosamente.", "Registro Exitoso", MessageBoxButton.OK, MessageBoxImage.Information);
 
-                LimpiarCampos();
+                // Establecer el cliente registrado para retornarlo al dueño
+                ClienteRegistrado = new Cliente
+                {
+                    Cedula = cedula,
+                    Nombre = nombre,
+                    Apellido = apellido,
+                    Direccion = direccion,
+                    Telefono = telefono,
+                    CorreoElectronico = correo
+                };
+
+                this.DialogResult = true; // Indicar que se completó correctamente
+                this.Close(); // Cerrar la ventana
             }
             catch (ArgumentException ex)
             {
@@ -71,18 +85,10 @@ namespace GUI
         }
 
 
+
         private bool EsNumerico(string input)
         {
             return Regex.IsMatch(input, @"^\d+$");
-        }
-
-        private void LimpiarCampos()
-        {
-            txtNombre.Clear();
-            txtApellido.Clear();
-            txtCedula.Clear();
-            txtCorreo.Clear();
-            txtTelefono.Clear();
         }
 
         private void InputTextBoxCedula_TextChanged(object sender, TextChangedEventArgs e)

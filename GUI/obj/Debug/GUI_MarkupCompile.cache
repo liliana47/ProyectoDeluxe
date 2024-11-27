@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\kevin\source\repos\ProyectoDeluxe\GUI\App.xaml
-9-435825325
+15-513137496
 
-111381731990
-15-943906325
-AgregarCWindow.xaml;AgregarPWindow.xaml;ListarProductos.xaml;MainWindow.xaml;Pages\Facturar.xaml;Pages\Productos.xaml;Pages\Ventas.xaml;Styles\RadioButtonStyle.xaml;Themes\LightTheme.xaml;
+171940580577
+191459605905
+AgregarCWindow.xaml;AgregarPWindow.xaml;DetallesFactura.xaml;ListarProductos.xaml;MainWindow.xaml;Pages\Clientes.xaml;Pages\Estadisticas.xaml;Pages\Facturas.xaml;Pages\GraficaFacturas.xaml;Pages\GraficaIngresos.xaml;Pages\GraficaProducto.xaml;Pages\Productos.xaml;Pages\Ventas.xaml;Styles\RadioButtonStyle.xaml;Themes\LightTheme.xaml;
 
 False
 

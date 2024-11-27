@@ -35,6 +35,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
+      <HintPath>..\packages\BouncyCastle.Cryptography.2.4.0\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.4, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.4\lib\net461\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.0.9.7\lib\net45\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.Wpf.0.9.7\lib\net45\LiveCharts.Wpf.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -63,6 +75,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="DetallesFactura.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ListarProductos.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -81,6 +97,9 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="DetallesFactura.xaml.cs">
+      <DependentUpon>DetallesFactura.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ListarProductos.xaml.cs">
       <DependentUpon>ListarProductos.xaml</DependentUpon>
     </Compile>
@@ -88,7 +107,27 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Pages\Facturar.xaml">
+    <Page Include="Pages\Clientes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Estadisticas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Facturas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\GraficaFacturas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\GraficaIngresos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\GraficaProducto.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -110,8 +149,23 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Pages\Facturar.xaml.cs">
-      <DependentUpon>Facturar.xaml</DependentUpon>
+    <Compile Include="Pages\Clientes.xaml.cs">
+      <DependentUpon>Clientes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Estadisticas.xaml.cs">
+      <DependentUpon>Estadisticas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Facturas.xaml.cs">
+      <DependentUpon>Facturas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\GraficaFacturas.xaml.cs">
+      <DependentUpon>GraficaFacturas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\GraficaIngresos.xaml.cs">
+      <DependentUpon>GraficaIngresos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\GraficaProducto.xaml.cs">
+      <DependentUpon>GraficaProducto.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Productos.xaml.cs">
       <DependentUpon>Productos.xaml</DependentUpon>
@@ -136,6 +190,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -156,6 +211,20 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\Search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Ver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Stats.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Products.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Cliente.png" />
+    <Resource Include="Images\Factura.png" />
+    <Resource Include="Images\Sell.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
