@@ -1,0 +1,41 @@
+﻿<Window x:Class="GUI.DetallesFactura"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI"
+        mc:Ignorable="d"
+        Title="DetallesFactura" Height="650" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Detalle de Factura" FontSize="20" FontWeight="Bold" Margin="0,0,0,20" />
+
+        <StackPanel Grid.Row="0" Orientation="Vertical" Margin="0,40,0,10">
+            <TextBlock Text="N° Factura:" FontWeight="Bold" />
+            <TextBlock Text="{Binding Id}" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Cliente:" FontWeight="Bold" />
+            <TextBlock Text="{Binding Cliente.Nombre}" Margin="0,0,0,10" Foreground="Black"/>
+
+            <TextBlock Text="Cédula Cliente:" FontWeight="Bold" />
+            <TextBlock Text="{Binding Cliente.Cedula}" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Total:" FontWeight="Bold" />
+            <TextBlock Text="{Binding Total, StringFormat=C}" Margin="0,0,0,10"/>
+        </StackPanel>
+
+        <DataGrid Grid.Row="1" ItemsSource="{Binding Productos}" AutoGenerateColumns="False" CanUserAddRows="False" HeadersVisibility="Column" Margin="0,20,0,0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Código Producto" Binding="{Binding Id}" Width="120" />
+                <DataGridTextColumn Header="Nombre Producto" Binding="{Binding Nombre}" Width="200" />
+                <DataGridTextColumn Header="Cantidad" Binding="{Binding Cantidad}" Width="80" />
+                <DataGridTextColumn Header="Precio Unitario" Binding="{Binding PrecioUnitario, StringFormat=C}" Width="100" />
+                <DataGridTextColumn Header="Total" Binding="{Binding Total, StringFormat=C}" Width="100" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

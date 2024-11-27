@@ -2,9 +2,15 @@
 FC:\Users\kevin\source\repos\ProyectoDeluxe\GUI\App.xaml;;
 FC:\Users\kevin\source\repos\ProyectoDeluxe\GUI\AgregarCWindow.xaml;;
 FC:\Users\kevin\source\repos\ProyectoDeluxe\GUI\AgregarPWindow.xaml;;
+FC:\Users\kevin\source\repos\ProyectoDeluxe\GUI\DetallesFactura.xaml;;
 FC:\Users\kevin\source\repos\ProyectoDeluxe\GUI\ListarProductos.xaml;;
 FC:\Users\kevin\source\repos\ProyectoDeluxe\GUI\MainWindow.xaml;;
-FC:\Users\kevin\source\repos\ProyectoDeluxe\GUI\Pages\Facturar.xaml;;
+FC:\Users\kevin\source\repos\ProyectoDeluxe\GUI\Pages\Clientes.xaml;;
+FC:\Users\kevin\source\repos\ProyectoDeluxe\GUI\Pages\Estadisticas.xaml;;
+FC:\Users\kevin\source\repos\ProyectoDeluxe\GUI\Pages\Facturas.xaml;;
+FC:\Users\kevin\source\repos\ProyectoDeluxe\GUI\Pages\GraficaFacturas.xaml;;
+FC:\Users\kevin\source\repos\ProyectoDeluxe\GUI\Pages\GraficaIngresos.xaml;;
+FC:\Users\kevin\source\repos\ProyectoDeluxe\GUI\Pages\GraficaProducto.xaml;;
 FC:\Users\kevin\source\repos\ProyectoDeluxe\GUI\Pages\Productos.xaml;;
 FC:\Users\kevin\source\repos\ProyectoDeluxe\GUI\Pages\Ventas.xaml;;
 

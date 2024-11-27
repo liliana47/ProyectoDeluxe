@@ -47,5 +47,15 @@ namespace BLL
                 throw new ArgumentException($"El campo '{nombreCampo}' es obligatorio.");
             }
         }
+
+        public List<Cliente> ObtenerClientes()
+        {
+            return clienteDAL.ObtenerClientes();
+        }
+
+        public Cliente ObtenerClientePorCedula(string cedula)
+        {
+            return clienteDAL.ObtenerClientePorCedula(cedula);
+        }
     }
 }
